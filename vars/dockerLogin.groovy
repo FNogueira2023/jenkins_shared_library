@@ -2,5 +2,5 @@
 import com.main.Docker
 
 def call(String imageName){
-    return new Docker(this).dockerLogin(imageName)
+    return new Docker(this).dockerLogin()
 }
